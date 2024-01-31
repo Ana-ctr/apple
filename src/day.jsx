@@ -14,8 +14,7 @@ const Day = () => {
   const [list, setList] = useState([
     
     { id: 1, title: 'Item 1', details: 'Details for Item 1' },
-    { id: 2, title: 'Item 2', details: 'Details for Item 2' },
-    { id: 3, title: 'Item 3', details: 'Details for Item 3' },
+    
   ]);
   const [expandedItem, setExpandedItem] = useState(null);
 
